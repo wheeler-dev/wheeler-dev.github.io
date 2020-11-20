@@ -1,0 +1,41 @@
+.grid-container
+  display: grid
+  //grid-template-columns: repeat(12, 1fr)
+  //grid-template-rows: repeat(12, 1fr)
+
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr))
+  grid-template-rows: auto
+  grid-column-gap: 1em
+  grid-row-gap: 1em
+  grid-template-areas: 'header header header header' 'benefits benefits . .'
+  height: 100vh
+
+.header
+  grid-area: header
+  display: flex
+  .home-icon
+    width: 4em
+    height: 4em
+
+
+.flex-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+
+.benefits
+  grid-area: benefits
+  .item-container
+    width: 50%
+    display: flex
+    //border: 1px solid #ffe066
+    //border-radius: 5px
+  .icon
+    width: 3em
+    height: 3em
+  .icon-text
+    margin-left: 1em
+    font-size: large
+
+
+
