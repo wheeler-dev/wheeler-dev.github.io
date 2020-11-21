@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'insurancelead'`, () => {
+  it(`should have as title 'Versicherungs-Vergleich.com'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('insurancelead');
+    expect(app.title).toEqual('Versicherungs-Vergleich.com');
   });
 
   it('should render title', () => {

@@ -1,41 +1,86 @@
+$primary: #6ba7ff
+$secondary: #f3ae49
+
 .grid-container
   display: grid
   //grid-template-columns: repeat(12, 1fr)
   //grid-template-rows: repeat(12, 1fr)
 
-  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr))
+  //grid-template-rows: 1fr 1fr 1fr 1fr
   grid-template-rows: auto
   grid-column-gap: 1em
   grid-row-gap: 1em
-  grid-template-areas: 'header header header header' 'benefits benefits . .'
+  grid-template-areas: 'header header header header header header header header header header header header' '. . . benefits benefits benefits benefits . . . . . ' '. . . . . text text text text . . .' 'contact contact contact contact contact contact contact contact contact contact contact contact'
   height: 100vh
 
+//background: rgb(83,168,193) /* Old browsers */
+//background: -moz-linear-gradient(top, rgba(83,168,193,1) 0%, rgba(31,93,155,1) 100%) /* FF3.6-15 */
+//background: -webkit-linear-gradient(top, rgba(83,168,193,1) 0%,rgba(31,93,155,1) 100%) /* Chrome10-25,Safari5.1-6 */
+//background: linear-gradient(to bottom, rgba(83,168,193,1) 0%,rgba(31,93,155,1) 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+// Header Section
 .header
   grid-area: header
+  background-color: $primary
+  justify-self: stretch
+  align-self: stretch
   display: flex
+  justify-content: space-around
+  align-items: center
+
+  .home-icon-container
+    display: flex
+    flex-direction: column
+    justify-content: stretch
+    align-items: center
+
   .home-icon
+    height: 7em
+    width: 7em
+    max-height: 10rem
+
+  //Desktop
+  @media screen and (min-width: 1024px)
+
+  .contact-button
+    height: 5em
+    width: 25em
+    background-color: $secondary
+    box-shadow: 0.2em 0.2em gold
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    //justify-content: space-around
+    .phone-icon
+      width: 3rem
+      height: 3rem
+
+//@media screen and (min-width: 480px)
+//@media screen and (min-width: 768px)
+//@media screen and (min-width: 1200px)
+
+
+// Benefits Section
+.benefits
+  grid-area: benefits
+
+  .icon
     width: 4em
     height: 4em
 
-
-.flex-container
-  display: flex
-  flex-wrap: wrap
-  justify-content: space-around
-
-.benefits
-  grid-area: benefits
-  .item-container
-    width: 50%
-    display: flex
-    //border: 1px solid #ffe066
-    //border-radius: 5px
-  .icon
-    width: 3em
-    height: 3em
   .icon-text
     margin-left: 1em
     font-size: large
 
+//Info-Text Section
+.info-text
+  grid-area: text
 
+
+
+// Contact Information Section
+.contact-info
+  grid-area: contact
 
