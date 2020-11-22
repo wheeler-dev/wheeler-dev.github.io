@@ -1,5 +1,16 @@
-$primary: #6ba7ff
-$secondary: #f3ae49
+$primary: #6ba7ff // blight blue
+$secondary: #f3ae49 //orange
+$tertiary: #ffffff //white
+
+// import bulma
+// TODO: muss bei produktivem build vermutlich aus den assets kopiert werden
+@import '../../../node_modules/bulma/bulma'
+@include mobile
+@include desktop
+
+
+.color-tertiary
+  color: $tertiary
 
 .grid-container
   display: grid
@@ -43,19 +54,19 @@ $secondary: #f3ae49
 
   //Desktop
   @media screen and (min-width: 1024px)
-
-  .contact-button
-    height: 5em
-    width: 25em
-    background-color: $secondary
-    box-shadow: 0.2em 0.2em gold
-    display: flex
-    flex-wrap: wrap
-    align-items: center
-    //justify-content: space-around
+    .contact-button
+      height: 5em
+      width: 25em
+      background-color: $secondary
+      box-shadow: 0.2em 0.2em gold
+      display: flex
+      flex-wrap: wrap
+      align-items: center
+      justify-content: space-around
     .phone-icon
       width: 3rem
       height: 3rem
+
 
 //@media screen and (min-width: 480px)
 //@media screen and (min-width: 768px)
@@ -66,13 +77,37 @@ $secondary: #f3ae49
 .benefits
   grid-area: benefits
 
-  .icon
-    width: 4em
-    height: 4em
+  //Desktop
+  @include desktop
+    .icon
+      width: 4em
+      height: 4em
 
-  .icon-text
-    margin-left: 1em
-    font-size: large
+    .icon-text
+      font-size: 1.3em
+
+    .icon-subtext
+      font-size: 0.8em
+      padding-top: 1em
+      text-align: center
+      width: 75%
+
+    .column-item-container
+      display: flex
+      flex-direction: column
+    .column-item-element
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-evenly
+
+  //Mobile
+  @include mobile
+    .icon
+      width: 3em
+      height: 3em
+
+
 
 //Info-Text Section
 .info-text
