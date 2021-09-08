@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="portfolio-logo-semi-final.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg1546"
+   version="1.1"
+   viewBox="0 0 178.8573 280.76404"
+   height="280.76404mm"
+   width="178.8573mm">
+  <defs
+     id="defs1540" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="23"
+     inkscape:window-x="3360"
+     inkscape:window-height="1035"
+     inkscape:window-width="1864"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="451.13297"
+     inkscape:cx="319.60578"
+     inkscape:zoom="0.49559034"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata1543">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(9.9350427,-4.2778513)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       style="opacity:1"
+       id="g1524"
+       transform="matrix(1.4006358,-0.81352487,1.2517504,1.1826525,-250.32741,30.885376)">
+      <g
+         transform="translate(-27.272835,71.406417)"
+         aria-label="f"
+         id="g1518"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.043px;line-height:1.25;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:4.40106">
+        <path
+           d="M 83.068878,179.67107 V 104.50071 H 65.900834 V 90.417266 H 83.068878 V 78.270299 c 0,-4.342394 0.645491,-7.980616 1.936473,-10.914666 1.290982,-3.051412 3.051412,-5.574695 5.28129,-7.569849 2.112516,-1.995154 4.518437,-3.403498 7.217763,-4.225032 2.816686,-0.821534 5.692056,-1.232301 8.626106,-1.232301 h 28.8174 v 14.08344 h -28.64136 c -3.52086,0 -5.28129,2.053835 -5.28129,6.161505 v 15.84387 h 33.92265 v 14.083444 h -33.92265 v 75.17036 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.043px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b3b3b3;stroke-width:4.40106"
+           id="path1516"
+           sodipodi:nodetypes="cccccscccsccsscccccc" />
+      </g>
+      <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.043px;line-height:1.25;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.40106"
+         id="g1522"
+         aria-label="f"
+         transform="rotate(180,106.22158,124.18723)">
+        <path
+           sodipodi:nodetypes="cccccscccsccsscccccc"
+           id="path1520"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.043px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:4.40106"
+           d="M 83.068878,179.67107 V 104.50071 H 65.900834 V 90.417266 H 83.068878 V 78.270299 c 0,-4.342394 0.645491,-7.980616 1.936473,-10.914666 1.290982,-3.051412 3.051412,-5.574695 5.28129,-7.569849 2.112516,-1.995154 4.518437,-3.403498 7.217763,-4.225032 2.816686,-0.821534 5.692056,-1.232301 8.626106,-1.232301 h 28.8174 v 14.08344 h -28.64136 c -3.52086,0 -5.28129,2.053835 -5.28129,6.161505 v 15.84387 h 33.92265 v 14.083444 h -33.92265 v 75.17036 z" />
+      </g>
+    </g>
+  </g>
+</svg>
